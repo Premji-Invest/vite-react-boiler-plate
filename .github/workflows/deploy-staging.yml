@@ -1,9 +1,9 @@
-name: DEPLOY
+name: Deploy to Staging
 
 on:
   push:
     branches:
-      - main  # or your default branch like 'master'
+      - staging  # or your default branch like 'master'
   pull_request:
 
 jobs:
